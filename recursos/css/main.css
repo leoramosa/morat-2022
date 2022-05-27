@@ -203,7 +203,9 @@ margin-top: 70px;
 }
 
 .legales {
+  padding-top: 45px;
   font-weight: 100 !important;
+  color: black;
 }
 
 .logo_interbank {
