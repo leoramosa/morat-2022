@@ -25,7 +25,12 @@
 }
 
 /* style new */
-
+.content-hours{
+  color: black;
+  background: #f1f1f1;
+  padding: 46px 0 10px 0;
+  margin-bottom: 35px;
+}
 .minilogo{
   text-align: center;
   padding-bottom: 25px;
@@ -83,7 +88,7 @@ margin-top: 70px;
 }
 .img_mapa {
   margin-top: 10px;
-  width: 80%;
+  width: 60%;
   padding-bottom: 30px;
 }
 .preventa{
@@ -2958,7 +2963,7 @@ input[type='submit'].btn-sm {
   background-image: -webkit-linear-gradient(190deg, #a81818  0%, #de0000 100%);
   background-image: linear-gradient(190deg, #a81818 0%, #de0000 100%);
   color: #ffffff;
-  font-family: "Roboto Slab", serif;
+  font-family:  'Oswald', sans-serif;
 }
 
 
@@ -5334,7 +5339,7 @@ body > .jcf-select-drop.jcf-drop-flipped {
 
   .img_mapa {
     /* margin-top: 50px; */
-    width: 65%;
+    width: 80%;
   }
 
   .tarjeta {
@@ -5533,16 +5538,19 @@ body > .jcf-select-drop.jcf-drop-flipped {
     width: 25%;
   }
   .artista-grupo img {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.img-logo-event img {
+  padding-left: 15%;
+  padding-right: 15%;
 }
 
 }
 
 @media only screen and (max-width: 768px) {
-  .img-logo-event{
-    display: none;
-  }
+  
   .content-art {
     width: 50%;
   }
@@ -5556,6 +5564,16 @@ body > .jcf-select-drop.jcf-drop-flipped {
     padding-left: 16%;
     padding-right: 16%;
 }
+
+.preventa img {
+  width: 50%;
+}
+
+
+.img-logo-event img{
+  padding-left: 25%;
+  padding-right: 25%;
+}
 }
 @media only screen and (min-width: 576px) {
   .event-artista .respo{
@@ -5563,6 +5581,9 @@ display: none;
   }
 }
 @media only screen and (max-width: 576px) {
+  .img-logo-event{
+    display: none;
+  }
   .event-artista .desktop{
     display: none;
       }
